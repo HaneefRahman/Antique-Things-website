@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="favicon-32x32.png?v2">
+
+
+    <title>THE ATTIC</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="main.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <form action="#" class="Search-bar">
+            <input type="text" placeholder="Search">
+            <button type="submit"><i class='bx bx-search'></i> </button>
+        </form>
+    </header>
+
+    <div class="background"></div>
+
+    <div class="container" action="signin.php" method="post">
+        <div class="content">
+            <h1 class="title">THE ATTIC</h1><br>
+            <div class = 'text-sci'>
+               <mark><h3 id="welcoming">Welcome!<br><span>To India's Premium Antique Store.</span></h3><br></mark> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Alias quisquam suscipit explicabo, 
+                    eum perferendis blanditiis at officia amet 
+                    voluptas obcaecati iste eos quos voluptatem vitae, 
+                    nostrum  repellendus? Delectus, iste molestiae!
+                </p>
+                <br>
+
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+            </div>
+        </div> 
+        <div class="logreg-box">
+            <div class="form-box">
+                <form action="signin.php" method="POST">
+                    <h2>Sign In</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxl-gmail'></i></span>
+                        <input type="email" name="email" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                        <input type="password" name="password" required>
+                        <label>Password</label>
+                    </div>
+
+                    <div class="remember">
+                        <label><input type="checkbox">Remember Me</label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+
+                    <button type="submit" name="save" class="btn">Sign in</button>
+                    
+
+                    <div class="login-register">
+                        <p id="fd">Don't have an account?
+                        <a href="signup.html" class="register-link">Sign Up</a></p>
+                </form>
+            </div>
+        </div>
+       </div>
+
+    
+    
+</body>
+</html>
